@@ -31,8 +31,8 @@
                 </div>
             </div>
             <div class="col-span-6 sm:col-span-4 mt-6">
-                <a href="#" class="inline-flex items-center justify-center px-4 py-2 bg-white border border-gray-300 rounded-md font-semibold text-xs  uppercase tracking-widest shadow-sm  disabled:opacity-25 transition bg-gray-600 border-gray-600 text-white mt-2 mr-2">Save</a>
-                <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"  class=" inline-flex items-center justify-center px-4 py-2 bg-white border border-gray-300 rounded-md font-semibold text-xs  uppercase tracking-widest shadow-sm  disabled:opacity-25 transition bg-gray-600 border-gray-600 text-white mt-2 mr-2">Logout</a>
+                <a href="#" class="inline-flex items-center justify-center px-4 py-2  border border-gray-300 rounded-md font-semibold text-xs  uppercase tracking-widest shadow-sm  disabled:opacity-25 transition bg-gray-600 border-gray-600 text-white mt-2 mr-2">Save</a>
+                <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"  class=" inline-flex items-center justify-center px-4 py-2  border border-gray-300 rounded-md font-semibold text-xs  uppercase tracking-widest shadow-sm  disabled:opacity-25 transition bg-gray-600 border-gray-600 text-white mt-2 mr-2">Logout</a>
                 <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                     @csrf
                 </form>

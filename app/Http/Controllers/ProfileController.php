@@ -13,6 +13,7 @@ class ProfileController extends Controller
     public function index()
     {
         $user = auth()->user()->toArray();
+
         return view('pages.profile', compact('user'));
     }
 }
